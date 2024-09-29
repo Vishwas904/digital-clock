@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="script" href="script.js" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- <h1>Current Time</h1> -->
+    <section
+      class="h-[100vh] bg-[#111111] text-white flex flex-col gap-10 justify-center items-center"
+    >
+      <div class="countdown-container flex justify-center items-center gap-10">
+        <div class="countdown-El hours-c flex flex-col justify-center items-center w-[10rem] ">
+          <p class="big-text text-8xl" id="hours">0</p>
+          <span class="text-lg uppercase">hours</span>
+        </div>
+        <div class="countdown-El mins-c flex flex-col justify-center items-center w-[10rem] ">
+          <p class="big-text text-8xl" id="mins">0</p>
+          <span class="text-lg uppercase">mins</span>
+        </div>
+        <div class="countdown-El seconds-c flex flex-col justify-center items-center w-[10rem] ">
+          <p class="big-text text-8xl" id="seconds">0</p>
+          <span class="text-lg uppercase">seconds</span>
+        </div>
+        <div class="countdown-El days-c">
+          <!-- <p class="big-text" id="ampm">AM</p> -->
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
